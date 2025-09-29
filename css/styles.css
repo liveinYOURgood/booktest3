@@ -1,0 +1,1037 @@
+/* for larger desktop view below */
+
+@media screen and (min-width:1024px) {
+
+    .footertext {
+
+        color: white;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: bold;
+
+    }
+
+    .Fourlocations{
+
+        margin-top: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 45px;
+      }
+
+      .mainheader {
+
+        color: yellow;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 40px;
+    
+        margin-bottom: 40px;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+      
+        /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+      
+        -webkit-text-fill-color: yellow;
+        -webkit-text-stroke: 4px red;
+    
+        background-color: deepskyblue;
+        padding-left: 30px;
+        border: 3px solid black;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        clear:left;
+      
+      }
+
+      .mainpicture{
+
+        display: block;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        height:20%;
+        width:20%;
+        float: left;
+        padding-right: 40px;
+      
+      
+      
+      }
+    
+      .bodytextone{
+
+        font-size: 25px;
+        line-height: 34px;
+          color: black;
+          clear:right;
+    
+          text-align: left;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-bottom: 50px;
+
+          padding-top: 50px;
+
+      }
+
+      .extrapicture {
+
+        display: block;
+        padding-left: 40px;
+
+      }
+
+      .bodytexttwo{
+
+        font-size: 25px;
+        line-height: 34px;
+          color: black;
+          clear:right;
+    
+          text-align: left;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+    
+    body {
+    
+        background-color: beige;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+    
+        height: 100%;
+        width: 100%;
+        display: block;
+    
+    }
+    
+    .mastdesk {
+    
+        height: 100%;
+        width: 100%;
+        display: block;
+    
+    }
+
+    .mastmobile {
+    
+    display: none;
+
+    }
+    
+    .picture {
+    
+        height: 50%;
+        width: 50%;
+        display: block;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 75px;
+    
+        padding-bottom: 75px;
+    
+    
+    }
+    
+    .billy1 {
+    
+        height: 15%;
+        width: 15%;
+        display: block;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 75px;
+    
+        padding-bottom: 75px;
+    
+    
+    
+    }
+    
+    .shotspicture {
+    
+        height: 25%;
+        width: 25%;
+        display: block;
+    
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 75px;
+    
+        padding-bottom: 75px;
+
+        float: right;
+
+    
+    
+    
+    }
+    
+    .fivebookspicture-desk {
+    
+        height: 90%;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 50px;
+        padding-bottom: 50px;
+    
+    }
+
+    .fivebookspicture-mobile {
+    
+        display: none;
+
+    }
+    
+    p {
+        color: black;
+    
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        padding-top: 40px;
+        padding-bottom: 90px;
+        font-size: 25px;
+    
+    
+    }
+    
+    .introtext {
+        color: white;
+    
+        padding-left: 40px;
+        padding-right: 40px;
+    
+        padding-top: 40px;
+        padding-bottom: 90px;
+        font-size: 25px;
+    
+    }
+
+    .introduction {
+        color: black;
+    
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        padding-top: 40px;
+        padding-bottom: 90px;
+        font-size: 45px;
+        line-height: 60px;
+    
+    }
+
+    .billydoyle {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    
+    #welcome {
+    
+        margin-left: 30px;
+        margin-right: 30px;
+    
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+        background-color: black;
+    
+    }
+    
+    #quickmention {
+    
+        margin-left: 30px;
+        margin-right: 30px;
+    
+        margin-top: 50px;
+        margin-bottom: 50px;
+    
+        background-color: orange;
+        clear: right;
+
+    
+    }
+
+    
+    #mrT {
+    
+        margin-left: 30px;
+        margin-right: 30px;
+        background-color:darkgray;
+        clear: right;
+
+    }
+    
+    
+    
+    h3 {
+        color: red;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 3rem;
+    
+    }
+    
+    .titlelink {
+    
+        color: white;
+
+    }
+
+    .lineseperate {
+
+        text-align: center;
+
+    }
+    
+    .titlelink:hover {
+    
+        color: aqua;
+    }
+    
+    h1 {
+        color: aqua;
+        font-weight: bold;
+        text-align:center;
+        font-size: 6rem;
+
+        padding-top: 40px;
+        padding-left: 40px;
+    
+        padding-right: 40px;
+    
+    }
+    
+    footer {
+    
+        padding: 50px;
+        text-align: center;
+        font-size: 38px;
+        color:white;
+        background-color: black;
+    
+        margin-top: 50px;
+    
+    
+    }
+    
+    .threewaysF{
+    
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: sans-serif;
+        color:yellow;
+      }
+    
+    
+      
+      .threewaysF:hover {
+      
+        color: aqua;
+      
+      
+      }
+    
+    
+    
+      .buttonbook:hover {
+    
+        color: green;
+      }
+    
+      .boldtext {
+    
+        color: black;
+        font-weight: bolder;
+      }
+    
+      .boldtext2 {
+    
+        color: yellow;
+        font-weight: bolder;
+      }
+
+
+}
+
+
+
+
+/* for laptops, larger tablets in landscape and small desktops view below - ORANGE */
+
+
+@media screen and (min-width:769px) and (max-width: 1023px) {
+
+    body {
+
+        background-color:orange;
+
+        
+    }
+
+        .lineseperate {
+
+        text-align: center;
+        
+    }
+
+    h1 {
+        color: blue;
+        font-weight: bold;
+        text-align:center;
+        font-size: 35px;
+
+        padding-top: 40px;
+        padding-left: 10px;
+    
+        padding-right: 10px;
+
+        height: 100%;
+        width: 100%;
+    
+    }
+
+
+    .Fourlocations{
+
+        margin-top: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 45px;
+      }
+
+    .fivebookspicture-mobile {
+    
+        height: 90%;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+
+    .mainpicture{
+
+        display: block;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        height:45%;
+        width:45%;
+        padding-right: 40px;
+
+        margin-left: auto;
+        margin-right: auto;
+
+      
+      
+      }
+
+      .bodytextone{
+    
+        font-size: 25px;
+        line-height: 34px;
+          color: black;
+          clear:right;
+    
+          text-align: left;
+          font-family: Arial, Helvetica, sans-serif;
+
+          padding-left: 14px;
+          padding-right: 14px;
+          padding-top: 50px;
+          padding-bottom: 20px;
+
+
+      }
+
+
+      .mainheader {
+
+        color: yellow;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 40px;
+    
+        margin-bottom: 40px;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+      
+        /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+      
+        -webkit-text-fill-color: yellow;
+        -webkit-text-stroke: 4px red;
+    
+        background-color: deepskyblue;
+        padding-left: 30px;
+        border: 3px solid black;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        clear:left;
+      
+      }
+
+      h3 {
+        color: red;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 3rem;
+    
+    }
+
+
+    .bodytextone{
+    
+        font-size: 25px;
+        line-height: 34px;
+          color: black;
+          clear:right;
+    
+          text-align: left;
+          font-family: Arial, Helvetica, sans-serif;
+
+          padding-top: 50px;
+      }
+
+      .bodytexttwo{
+    
+        display: none;
+          }
+
+    .extrapicture {
+
+        display: block;
+
+        height: 90%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+
+        
+
+
+      }
+
+
+    .mastdesk {
+    
+        display: none;
+    
+        }
+    
+        .mastmobile {
+        
+            height: 100%;
+            width: 100%;
+            display: block;
+    
+        }
+
+        .fivebookspicture-desk {
+    
+            display: none;
+    
+        }
+
+
+
+          footer {
+    
+            padding: 50px;
+            text-align: center;
+            font-size: 38px;
+            color:white;
+            background-color: black;
+        
+            margin-top: 50px;
+        
+        
+        }
+        
+        .threewaysF{
+        
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 40px;
+            font-family: sans-serif;
+            color:yellow;
+          }
+        
+        
+          
+          .threewaysF:hover {
+          
+            color: aqua;
+          
+          
+          }
+    
+    
+
+        
+
+    }
+
+ 
+
+
+
+
+
+/* for tablets and larger smartphones view below PINK */
+
+
+@media screen and (min-width:481px) and (max-width: 768px) {
+
+    .Fourlocations{
+
+        margin-top: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 45px;
+      }
+
+    .mainpicture{
+
+        display: block;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        height:60%;
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+
+      
+      
+      }
+
+      .mainheader {
+
+        color: yellow;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 40px;
+    
+        margin-bottom: 40px;
+
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+      
+        /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+      
+        -webkit-text-fill-color: yellow;
+        -webkit-text-stroke: 4px red;
+    
+        background-color: deepskyblue;
+        padding-left: 30px;
+        border: 3px solid black;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        clear:left;
+      
+      }
+
+      h3 {
+
+        color: red;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 3rem;
+    
+    }
+
+    .footertext {
+
+        color: white;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: bold;
+
+    }
+
+    footer {
+    
+        padding: 50px;
+        text-align: center;
+        font-size: 38px;
+        color:white;
+        background-color: black;
+    
+        margin-top: 50px;
+    
+    
+    }
+
+    .threewaysF{
+    
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 40px;
+        font-family: sans-serif;
+        color:yellow;
+      }
+    
+    
+      
+      .threewaysF:hover {
+      
+        color: aqua;
+      
+      
+      }
+
+
+    body {
+        background-color: pink;
+    }
+
+    .extrapicture {
+
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+      }
+
+    .mastdesk {
+    
+        display: none;
+    
+        }
+    
+        .mastmobile {
+        
+            height: 100%;
+            width: 100%;
+            display: block;
+    
+        }
+
+        .fivebookspicture-desk {
+    
+            display: none;
+    
+        }
+
+        .fivebookspicture-mobile {
+    
+            height: 90%;
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        
+            padding-top: 50px;
+            padding-bottom: 50px;
+            
+        }
+
+        h1 {
+            color: blue;
+            font-weight: bold;
+            text-align:center;
+            font-size: 35px;
+    
+            padding-top: 40px;
+            padding-left: 10px;
+        
+            padding-right: 10px;
+    
+            height: 100%;
+            width: 100%;
+        
+        }
+
+        .lineseperate {
+
+            text-align: center;
+            
+        }
+    
+        .bodytextone{
+    
+            font-size: 25px;
+            line-height: 34px;
+              color: black;
+              clear:right;
+        
+              text-align: left;
+              font-family: Arial, Helvetica, sans-serif;
+
+              padding-top: 50px;
+
+          }
+    
+    
+    
+    
+    
+
+}
+
+
+/* for smaller smartphones view below  --- YELLOW */
+
+
+@media screen and (min-width:0px) and (max-width: 480px)  {
+
+
+    body {
+    
+        background-color: yellow;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .mastdesk {
+    
+    display: none;
+
+    }
+
+    .mastmobile {
+    
+        height: 100%;
+        width: 100%;
+        display: block;
+
+    }
+
+    .fivebookspicture-desk {
+    
+        display: none;
+
+    }
+
+    .fivebookspicture-mobile {
+    
+        height: 90%;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+    .mainheader {
+
+        color: yellow;
+        font-size: 60px;
+        font-weight: bold;
+        text-align: left;
+        margin-top: 40px;
+    
+        margin-bottom: 20px;
+
+        padding-bottom: 40px;
+    
+      
+        /* webkit below here makes an outline for the text. Yellow is the fill, red is the stroke or outline color */
+      
+        -webkit-text-fill-color: yellow;
+        -webkit-text-stroke: 4px red;
+    
+        background-color: deepskyblue;
+        padding-left: 30px;
+        border: 3px solid black;
+    
+        font-family: Arial, Helvetica, sans-serif;
+    
+        clear:left;
+      
+      }
+
+      .Fourlocations{
+
+        margin-top: 45px;
+        margin-left: 45px;
+        margin-right: 45px;
+        margin-bottom: 45px;
+      }
+
+      .mainpicture{
+
+        display: block;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        height:100%;
+        width:100%;
+        padding-right: 40px;
+      
+      
+      
+      }
+
+      h1 {
+        color: blue;
+        font-weight: bold;
+        text-align:center;
+        font-size: 35px;
+
+        padding-top: 40px;
+        padding-left: 10px;
+    
+        padding-right: 10px;
+
+        height: 100%;
+        width: 100%;
+    
+    }
+
+    .lineseperate {
+
+        text-align: center;
+        
+    }
+
+    .bodytextone{
+
+        font-size: 25px;
+        line-height: 34px;
+          color: black;
+          clear:right;
+    
+          text-align: left;
+          font-family: Arial, Helvetica, sans-serif;
+
+          padding-left: 140px;
+          padding-right: 140px;
+
+          padding-top: 50px;
+
+      }
+
+      .bodytexttwo{
+
+        display: none;      }
+
+        .footertext {
+
+            color: white;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: bold;
+    
+        }
+
+        footer {
+    
+            padding: 50px;
+            text-align: center;
+            font-size: 38px;
+            color:white;
+            background-color: black;
+        
+            margin-top: 50px;
+        
+        
+        }
+
+        .threewaysF {
+
+            color: yellow;
+        }
+
+        .titlelink {
+    
+            color: red;
+            padding-left: 120px;
+            font-size: 20px;
+
+    
+        }
+        
+        .titlelink:hover {
+        
+            color: aqua;
+        }
+
+        h3 {
+
+        color: red;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 3rem;
+        
+    
+
+        
+    }
+
+    .extrapicture {
+
+        display: block;
+        height: 100%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+
+
+      }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
